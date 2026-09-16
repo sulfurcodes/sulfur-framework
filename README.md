@@ -1,4 +1,4 @@
-# Sulfur Web Server
+# Web Server with Python
 
 A minimal HTTP web server built from scratch in Python using raw TCP sockets.
 
