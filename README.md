@@ -6,7 +6,7 @@ A minimal HTTP web server built from scratch in Python using raw TCP sockets.
 
 ## About
 
-Sulfur Web Server is a from-scratch HTTP server built using Python's low-level `socket` module.
+It is a from-scratch HTTP server built using Python's low-level `socket` module.
 
 The goal isn't to replace production web servers or frameworks like Flask, FastAPI, or Django. It's to understand what actually happens between a client sending an HTTP request and a server returning an HTTP response.
 
@@ -29,7 +29,7 @@ The project starts at the TCP level and gradually builds the basic pieces requir
 ## Project Structure
 
 ```text
-sulfur-framework/
+web-server/
 │
 ├── server/
 │   ├── 1_index.html
@@ -93,8 +93,8 @@ Browser
 Clone the repository:
 
 ```bash
-git clone https://github.com/sulfurcodes/sulfur-framework.git
-cd sulfur-framework
+git clone https://github.com/sulfurcodes/web-server-with-python.git
+cd web-server
 ```
 
 Create a virtual environment:
